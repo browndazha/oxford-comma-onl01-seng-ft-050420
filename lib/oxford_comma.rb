@@ -1,12 +1,16 @@
 require "pry"
 
 def oxford_comma(list_of_fruits)
-  var1 = "Dazha"
-  binding.pry
-  var2 = "Dwayne"
-  # if array.size == 2
-  #   two = array.join(" and ")
-  #   two
+  if # check to see if the length of the array is 1
+    # if it is, convert the array to string and return string
+
+  elsif # check to see if the length of the array is 2
+    # if it is, convert the array to string AND and "and" between the two items
+    # then return string
+
+  elsif # What do we do if the array is > 2?
+
+  end
 end
 
 # kiwi
