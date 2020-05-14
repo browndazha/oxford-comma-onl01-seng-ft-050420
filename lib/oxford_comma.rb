@@ -6,7 +6,8 @@ def oxford_comma(list_of_fruits)
     list_of_fruits.join(', ')
     # if it is, convert the array to string and return string
 
-  #elsif # check to see if the length of the array is 2
+  elsif list_of_fruits.length == 2
+    list_of_fruits.join(', ') # check to see if the length of the array is 2
     # if it is, convert the array to string AND and "and" between the two items
     # then return string
 
