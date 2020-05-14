@@ -13,7 +13,7 @@ def oxford_comma(list_of_fruits)
 
   elsif list_of_fruits.length > 2 # What do we do if the array is > 2?
     list_of_fruits.last.insert(0, 'and ')
-   binding.pry
+    list_of_fruits.join(', ')
   end
 end
 
