@@ -11,8 +11,8 @@ def oxford_comma(list_of_fruits)
     # if it is, convert the array to string AND and "and" between the two items
     # then return string
 
-  #elsif # What do we do if the array is > 2?
-
+  elsif list_of_fruits.length > 2 # What do we do if the array is > 2?
+   binding.pry
   end
 end
 
