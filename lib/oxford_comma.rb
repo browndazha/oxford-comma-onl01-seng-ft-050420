@@ -2,7 +2,7 @@ require "pry"
 
 def oxford_comma(list_of_fruits)
   binding.pry
-  # if # check to see if the length of the array is 1
+  if list_of_fruits.length == 1 # check to see if the length of the array is 1
     # if it is, convert the array to string and return string
 
   #elsif # check to see if the length of the array is 2
