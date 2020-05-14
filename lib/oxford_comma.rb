@@ -1,7 +1,7 @@
 require "pry"
 
 def oxford_comma(list_of_fruits)
-  binding.pry
+  # binding.pry
   if list_of_fruits.length == 1 # check to see if the length of the array is 1
     list_of_fruits.join(', ')
     # if it is, convert the array to string and return string
